@@ -3,76 +3,94 @@
 
 <head>
 	<title> Web Page Title
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</title>
-	
+
 	<style type "text/css">
-  	body{
-			background-image : url("https://thewallpaper.co//wp-content/uploads/2019/08//design-theme-wallpaper-abstract-illustration-light-colors-desktop-images-high-resolution-art-colorful-jpg.jpg");
-		}	
-		table{
-		
-			border : 1px solid black; 
+		body {
+			/* background-image: url("https://thewallpaper.co//wp-content/uploads/2019/08//design-theme-wallpaper-abstract-illustration-light-colors-desktop-images-high-resolution-art-colorful-jpg.jpg"); */
+			background: url("https://images.unsplash.com/photo-1521041601476-47a88cecb403?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1100&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1920") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 		}
-		nav{
-			padding : 50px 0;
-			min-width : 500px;
-		}	
-		nav ul{
-			box-shadow : 0 0 25px rgba(0,0,0,0.1),
-			inset 0 0 1px rgba(255,255,255,0.6);
+
+		table {
+
+			border: 1px solid black;
 		}
-		nav ul li{
-			display : inline-block;
-		}	
-		nav ul li a{
-			padding : 20px;
-			color : #FFFFFF;
-			font-size : 20px;
-			font-family : Arial;
-			text-decoration : none;
-			display : block;
-		}	
-		#fair{
-			background : red;
+
+		nav {
+			padding: 50px 0;
+			min-width: 500px;
+		}
+
+		nav ul {
+			box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+				inset 0 0 1px rgba(255, 255, 255, 0.6);
+		}
+
+		nav ul li {
+			display: inline-block;
+		}
+
+		nav ul li a {
+			padding: 20px;
+			color: #FFFFFF;
+			font-size: 20px;
+			font-family: Arial;
+			text-decoration: none;
+			display: block;
+		}
+
+		#fair {
+			background: red;
 			color: white;
-		}	
-		td{
-		
-			border : 1px solid black; 
 		}
-		#intro{
-			background : red;
+
+		td {
+
+			border: 1px solid black;
+		}
+
+		#intro {
+			background: red;
 			color: white;
-			letter-spacing : 1px;
-			font-family : Florence, cursive;
-			background-image : url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+			letter-spacing: 1px;
+			font-family: Florence, cursive;
+			background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
 			background-size: 1250px 160px;
 			//opacity : 0.8;
-			font-size : 20px;
-			width  : 600px;
-			-webkit-border-radius : 25px;
-			-moz-border-radius : 25px;
-		}	
-		#sp{
-			color : white;
-		}	
-		#pract{
-			background : purple;
-			color: white;
-			width  : 120px;
-			-webkit-border-radius : 25px;
-			-moz-border-radius : 25px;
-		}	
-		ol{
-			background : green;
-			color: white;
-			width  : 120px;
-			-webkit-border-radius : 25px;
-			-moz-border-radius : 25px;
+			font-size: 20px;
+			width: 600px;
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
 		}
-	/*	#date{
+
+		#sp {
+			color: white;
+		}
+
+		#pract {
+			background: purple;
+			color: white;
+			width: 120px;
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
+		}
+
+		ol {
+			background: green;
+			color: white;
+			width: 120px;
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
+		}
+
+		/*	#date{
 			font-style : italic ;
 			font-family : Florence, cursive;
 			font-size : large;
@@ -81,257 +99,335 @@
 			text-shadow : 5px 2px 4px blue;
 			/*	position : fixed ;
 				right : 5px;	*/
-		}*/
-		#ho:hover{
-			background : black;
+		}
+
+		*/ #ho:hover {
+			background: black;
 			color: white;
 		}
-		#border{
-			padding : 10px;
-			border : 5px solid green;
-			border-style : dotted;
+
+		#border {
+			padding: 10px;
+			border: 5px solid green;
+			border-style: dotted;
 		}
-		#form{
-			background-color : pink;
-			width : 500px;
+
+		#form {
+			background-color: pink;
+			width: 500px;
 		}
-		#DP{
-			float : right;
-			height : 169px;
-			width : 140px;
-		}		
-		#Red{
-			background-color : #FF4D4D;
-			margin-bottom : 15px;
-			width  : 120px;
-			height : 120px;
-			color  : white;
-			-webkit-border-radius : 25px;
-			-moz-border-radius : 25px;
-			transform : rotate(10deg);
+
+		#DP {
+			float: right;
+			height: 169px;
+			width: 140px;
 		}
-		#Green{
-			background-color : green;
-			position : relative;
-			width  : 120px;
-			height : 120px;
-			color  : white;
-			margin-top : -135px;
-			margin-left : 180px;
-			-webkit-border-radius : 25px;
-			-moz-border-radius : 25px;
-			transform : rotate(-10deg);
+
+		#Red {
+			background-color: #FF4D4D;
+			margin-bottom: 15px;
+			width: 120px;
+			height: 120px;
+			color: white;
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
+			transform: rotate(10deg);
 		}
-		#Yellow{
-			background-color : yellow;
-			position : relative;
-			width  : 120px;
-			height : 120px;
-			margin-top : -50px;
-			margin-left : 90px;
-			-webkit-border-radius : 25px;
-			-moz-border-radius : 25px;
+
+		#Green {
+			background-color: green;
+			position: relative;
+			width: 120px;
+			height: 120px;
+			color: white;
+			margin-top: -135px;
+			margin-left: 180px;
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
+			transform: rotate(-10deg);
 		}
-		#col1{
-			animation-name: anim;   
+
+		#Yellow {
+			background-color: yellow;
+			position: relative;
+			width: 120px;
+			height: 120px;
+			margin-top: -50px;
+			margin-left: 90px;
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
+		}
+
+		#col1 {
+			animation-name: anim;
 			animation-duration: 5s;
-			height:100px;
-			width :600px;
+			height: 100px;
+			width: 600px;
 			-webkit-animation-iteration-count: 10;
-			padding : 10px;
+			padding: 10px;
 			background-color: orange;
 			-webkit-animation-duration: 5s;
 			-webkit-animation-name: anim;
 		}
+
 		@keyframes anim {
-			from { width: 0px; }
-			to { width: 600px; }
+			from {
+				width: 0px;
+			}
+
+			to {
+				width: 600px;
+			}
 		}
+
 		@-webkit-keyframes anim {
-			from { width: 0px; }
-			to { width: 600px; }
+			from {
+				width: 0px;
+			}
+
+			to {
+				width: 600px;
+			}
 		}
-		#col2{
-			animation-name: anim;   
+
+		#col2 {
+			animation-name: anim;
 			animation-duration: 5s;
-			height:100px;
-			width :600px;
+			height: 100px;
+			width: 600px;
 			background-color: white;
 			-webkit-animation-duration: 5s;
 			-webkit-animation-name: anim;
 		}
+
 		@keyframes anim {
-			from { width: 0px; }
-			to { width: 600px; }
+			from {
+				width: 0px;
+			}
+
+			to {
+				width: 600px;
+			}
 		}
+
 		@-webkit-keyframes anim {
-			from { width: 0px; }
-			to { width: 600px; }
+			from {
+				width: 0px;
+			}
+
+			to {
+				width: 600px;
+			}
 		}
-		#Ashoka{
-			height:100px;
-		}	
-		#col3{
-			animation-name: anim;   
+
+		#Ashoka {
+			height: 100px;
+		}
+
+		#col3 {
+			animation-name: anim;
 			animation-duration: 5s;
-			height:100px;
-			width :600px;
+			height: 100px;
+			width: 600px;
 			-webkit-animation-iteration-count: 10;
-			padding : 10px;
+			padding: 10px;
 			background-color: green;
 			-webkit-animation-duration: 5s;
 			-webkit-animation-name: anim;
 		}
+
 		@keyframes anim {
-			from { width: 0px; }
-			to { width: 600px; }
+			from {
+				width: 0px;
+			}
+
+			to {
+				width: 600px;
+			}
 		}
+
 		@-webkit-keyframes anim {
-			from { width: 0px; }
-			to { width: 600px; }
+			from {
+				width: 0px;
+			}
+
+			to {
+				width: 600px;
+			}
 		}
-		span{
-			display : block;
-		}	
-		#fox{
-			color : white;
-		}	
-		#extra{
-			width : 150px;
-			height : 150px;
-			background-color : LightBlue;
-			float : left;
-			overflow : scroll;
-		}	
-		#extra1{
-			width  : 150px;
-			height : 150px;
-			border : 20px;
-			background-color : orange;
-			float : left;
-			overflow : auto;
-		}	
-	
-	</style>	
+
+		span {
+			display: block;
+		}
+
+		#fox {
+			color: white;
+		}
+
+		#extra {
+			width: 150px;
+			height: 150px;
+			background-color: LightBlue;
+			float: left;
+			overflow: scroll;
+		}
+
+		#extra1 {
+			width: 150px;
+			height: 150px;
+			border: 20px;
+			background-color: orange;
+			float: left;
+			overflow: auto;
+		}
+	</style>
 </head>
+<div class="container">
 
-<body style=" background-color: skyblue ">
-	
- <script src="demo.js"></script>	
+	<body style=" background-color: skyblue ">
 
-<div id = "Red"> <center> Stop </center> </div> 
-<div id = "Green"> <center> Go </center> </div>
-<div id = "Yellow"> <center> Wait </center> </div>
+		<script src="demo.js"></script>
 
-<center> <div id = "col1" > </div>
-<div id = "col2" > <img id = "Ashoka" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/1200px-Ashoka_Chakra.svg.png" > </div>
-<div id = "col3" > </div> </center>
+		<div id="Red">
+			<center> Stop </center>
+		</div>
+		<div id="Green">
+			<center> Go </center>
+		</div>
+		<div id="Yellow">
+			<center> Wait </center>
+		</div>
 
-<h1 style="color : red; font-style : italic" align="center" ><u>Hello There</u></h1>
+		<center>
+			<div id="col1"> </div>
+			<div id="col2"> <img id="Ashoka"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/1200px-Ashoka_Chakra.svg.png">
+			</div>
+			<div id="col3"> </div>
+		</center>
 
-<center> <p id = "intro" > <img id = "DP" src = "https://scontent.fccu2-1.fna.fbcdn.net/v/t1.0
+		<h1 style="color : red; font-style : italic" align="center"><u>Hello There</u></h1>
+
+		<center>
+			<p id="intro"> <img id="DP" src="https://scontent.fccu2-1.fna.fbcdn.net/v/t1.0
 -9/s960x960/82443368_2550727365143110_2809979316866121728_o.jpg?_nc_cat=105&_nc_sid=85a577&_
 nc_ohc=75vC0i4ciKUAX8wn_Tm&_nc_ht=scontent.fccu2-1.fna&_nc_tp=7&oh=14677306bd3d70515f5c60038
-e9add79&oe=5EE647C3" > </img> Hi, This Is Ashish Pattnayak. I have started learning Web Designing on my own.
-I am taking help from an application called 'Sololearn' and Google is always there for help when needed.
-I have made this page with the knowdledge of HTML And CSS and all the content visible here is the</span>
-implementation of what I learned till now. I have tried to reflect the important properties which make 
-a webpage look like a good one. Thankyou !</p> </center> 
+e9add79&oe=5EE647C3"> </img> Hi, This Is Ashish Pattnayak. I have started learning Web Designing on my own.
+				I am taking help from an application called 'Sololearn' and Google is always there for help when needed.
+				I have made this page with the knowdledge of HTML And CSS and all the content visible here is the</span>
+				implementation of what I learned till now. I have tried to reflect the important properties which make
+				a webpage look like a good one. Thankyou !</p>
+		</center>
 
-<nav> <ul id = "fair"> 
-<li> <a href="https://google.com" target="_blank"> GOOGLE </a> </li>
-<li> <a href="http://sololearn.com/" target="_blank"> SOLOLEARN </a> </li>
-<li> <a href="https://www.facebook.com/" target="_blank"> FACEBOOK </a> </li>
-</ul> </nav>
+		<nav>
+			<ul id="fair">
+				<li> <a href="https://google.com" target="_blank"> GOOGLE </a> </li>
+				<li> <a href="http://sololearn.com/" target="_blank"> SOLOLEARN </a> </li>
+				<li> <a href="https://www.facebook.com/" target="_blank"> FACEBOOK </a> </li>
+			</ul>
+		</nav>
 
-<p><h1>I Have<span style ="color : green" > Null Skills </span></h1></p>
+		<p>
+		<h1>I Have<span style="color : green"> Null Skills </span></h1>
+		</p>
 
-<p> <div id = "extra"> The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
-The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
-The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog </div><p>
+		<p>
+		<div id="extra"> The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
+			The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
+			The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog </div>
+		<p>
 
-<p> <div id = "extra1"> The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
-The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
-The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog </div><p><br/>
+		<p>
+		<div id="extra1"> The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
+			The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog
+			The quick brown fox jumps over the lazy dog The quick brown fox jumps over the lazy dog </div>
+		<p><br />
 
-<h2 id = "fox" ><del> The quick brown fox jumps over the lazy dog... </del></h2><br/>
-<h2> Click On The Image To Open Google</h2>
+		<h2 id="fox"><del> The quick brown fox jumps over the lazy dog... </del></h2><br />
+		<h2> Click On The Image To Open Google</h2>
 
-<center><a href = "https://google.com" target="_blank" ><img src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  height = "220" width = "440"></a><br/></center>
+		<center><a href="https://google.com" target="_blank"><img
+					src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+					height="220" width="440"></a><br /></center>
 
-<h2> This Form Is For Show, The data is not sent anywhere.. </h2>
+		<h2> This Form Is For Show, The data is not sent anywhere.. </h2>
 
-<form id= "form">
-Name :    <input name= "Name" type= "text" placeholder = "Name" required>
+		<form id="form">
+			Name : <input name="Name" type="text" placeholder="Name" required>
 
-Email ID :<input name= "Email" type= "email" placeholder = "xyz@email.com" /><br/><br/>
+			Email ID :<input name="Email" type="email" placeholder="xyz@email.com" /><br /><br />
 
-<label for ="Message">Message :</label>
+			<label for="Message">Message :</label>
 
-<textarea name= "Message" placeholder = "Message" ></textarea><br/><br/>
+			<textarea name="Message" placeholder="Message"></textarea><br /><br />
 
-<label for ="Gender">Select Your Gender :</label>
-<input type= "Radio" name =" Gender" value= "Male"/>Male
-<input type= "Radio" name =" Gender" value= "Female"/>Female<br/>
+			<label for="Gender">Select Your Gender :</label>
+			<input type="Radio" name=" Gender" value="Male" />Male
+			<input type="Radio" name=" Gender" value="Female" />Female<br />
 
-<label for ="Month">Birthday :</label>
-<select name= "Month"  >
-	<option value="0" selected disabled>Month</option>
-	<option value="Jan">January</option>
-	<option value="Feb">February</option>
-	<option value="Jan">March</option>
-	<option value="Apr">April</option>
-	<option value="May">May</option>
-	<option value="June">June</option>
-	<option value="Jul">July</option>
-	<option value="Aug">August</option>
-	<option value="Sept">September</option>
-	<option value="Oct">October</option>
-	<option value="Nov">November</option>
-	<option value="Dec">December</option>
-</select><br/>
+			<label for="Month">Birthday :</label>
+			<select name="Month">
+				<option value="0" selected disabled>Month</option>
+				<option value="Jan">January</option>
+				<option value="Feb">February</option>
+				<option value="Jan">March</option>
+				<option value="Apr">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="Jul">July</option>
+				<option value="Aug">August</option>
+				<option value="Sept">September</option>
+				<option value="Oct">October</option>
+				<option value="Nov">November</option>
+				<option value="Dec">December</option>
+			</select><br />
 
-<input type = "checkbox" name = "Agree">
-<label for ="Agree">I Agree To All Terms And Conditions</label><br/>
+			<input type="checkbox" name="Agree">
+			<label for="Agree">I Agree To All Terms And Conditions</label><br />
 
-<input type= "submit" value= "Submit" class= "submit"/><br/>
-</form></div>
+			<input type="submit" value="Submit" class="submit" /><br />
+		</form>
+</div>
 
-<p id= "border">This Is An Example Of Bordering </p>
+<p id="border">This Is An Example Of Bordering </p>
 
-<ul id = "pract">
-<li> Java </li>
-<li> C </li>
-<li> C++ </li>
+<ul id="pract">
+	<li> Java </li>
+	<li> C </li>
+	<li> C++ </li>
 </ul>
 
 <ol>
-<li> Java </li>
-<li> C </li>
-<li> C++ </li>
+	<li> Java </li>
+	<li> C </li>
+	<li> C++ </li>
 </ol>
 
-<center><table>
-	<thead>
-		<th> Name </th>
-		<th> Dog Owner </th>
-		<th> Breed </th>
-	</thead>
-<tr>
-	<td> Bruno </td>
-	<td> Ashish </td>
-	<td> Retriever </td>
-</tr>
-<tr>
-	<td> Husky </td>
-	<td> Alok </td>
-	<td> Labrador </td>
-</tr>
-	
-</table></center><br/><br/>
+<center>
+	<table>
+		<thead>
+			<th> Name </th>
+			<th> Dog Owner </th>
+			<th> Breed </th>
+		</thead>
+		<tr>
+			<td> Bruno </td>
+			<td> Ashish </td>
+			<td> Retriever </td>
+		</tr>
+		<tr>
+			<td> Husky </td>
+			<td> Alok </td>
+			<td> Labrador </td>
+		</tr>
 
-<center><a id = "ho" href="https://google.com" target="_blank">Click To Open Google </a><br/><br/></center>
+	</table>
+	</center><br /><br />
+
+	<center><a id="ho" href="https://google.com" target="_blank">Click To Open Google </a><br /><br /></center>
+
+</div>
+	</body>
 
 
-</body>
 </html>
